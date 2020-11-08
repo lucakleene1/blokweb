@@ -81,4 +81,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="partypagina.png" width="375px" alt="Dit is de partypagina van de kledingwebshop Loavies. Hier vind je kleding en accessoires voor de feestdagen.">
+<img src="images/partypagina.png" width="375px" alt="Dit is de partypagina van de kledingwebshop Loavies. Hier vind je kleding en accessoires voor de feestdagen.">
