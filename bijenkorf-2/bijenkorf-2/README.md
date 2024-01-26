@@ -256,7 +256,6 @@ hier screenshot(s) van je eindresultaat
 <img src="images/wcag3.PNG" width="375px" alt="wcag derde deel">
 <img src="images/wcag4.PNG" width="375px" alt="wcag vierde deel">
 <img src="images/wcag5.PNG" width="375px" alt="wcag vijfde deel">
-<img src="images/wcag6.PNG" width="375px" alt="wcag zesde deel">
 
 ## Bronnenlijst
 
