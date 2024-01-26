@@ -112,7 +112,7 @@ Voor mezelf wel echt de deadline gesteld bij de volgende voortgang minstens 1 pa
 
 
 
-## Toegankelijkheidstest mijn pagina (week 4)
+## Toegankelijkheidstest huidige pagina (week 2)
 
 <details>
 
@@ -169,7 +169,61 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 </details>
 
+## Screenshots van proces
+Ik kwam erachter dat alle li elemten in de footer eigenlijk linkjes zijn, dus die heb ik verandert en daar a'tjes van gemaakt
+<img src="images/screenshot1.PNG" width="375px">
+Hierboven dus de oude versie en hieronder de vernieuwde
+<img src="images/screenshot3.PNG" width="375px">
 
+Toen ik met mn screenreader over mn eigen pagina heen ging kwam ik erachter dat de alt teksten van mn afbeeldingn niet beschrijvend genoeg waren, dus die heb ik ook aangpast
+<img src="images/screenshot2.PNG" width="375px">
+<img src="images/screenshot4.PNG" width="375px">
+
+Ook de tabjes in de main die aangeven op welke pagina je zit heb ik aangepast naar linkjes, ik had ze eerst alles als li
+<img src="images/screenshot5.PNG" width="375px">
+<img src="images/screenshot6.PNG" width="375px">
+
+Verder kwam ik er na het compleet afmaken van mn eerste pagina erachter dat ik geen classes mocht gebruiken, dus die heb ik eruit gehaald en vervolgens vervangen door CSS selectors
+<img src="images/screenshot7.PNG" width="375px">
+<img src="images/screenshot8.PNG" width="375px">
+<img src="images/screenshot9.PNG" width="375px">
+
+Het maken van het menu, main en footer ging redelijk goed, waar ik alleen heel veel moeite mee heb gehad is de javascript, deze staat er wel in maar werkt helaas niet. Ik wilde deze eerst op de menuknop toevoegen, maar ik maak gebruik van svg's en het internet bracht hier niet heel veel duidelijkheid in. Ik denk dat er veel verwarring ontstond omdat eigenlijk de hele svg wordt gestyled bij het inladen in de html al, en niet in de css. maar dat je met javascript een function aanmaakt en deze vaak een extra regel in de css toevoegd. Ik heb meerdere paginas hiervoor geraadpleegd, zie ook mn bronnenlijst, maar hoe meer ik ernaar keek hoe onduidelijker het werd; https://www.petercollingridge.co.uk/tutorials/svg/interactive/javascript/
+
+Wel heb ik dan uiteindelijk geprobeerd om een onclick te maken op de p in de main zodat deze van zwart naar rode tekst zou springen maar ook dit lukte me helaas niet. 
+<img src="images/screenshot10.PNG" width="375px">
+<img src="images/screenshot11.PNG" width="375px">
+
+
+## Toegankelijkheidstest mijn pagina (week 6)
+
+<details>
+
+### Bevindingen
+Lijst met je bevindingen die in de test naar voren kwamen:
+
+#### Titel eerste bevinding
+Ik ben eerst de koppen na gaan lopen. In tegenstelling tot de al bestaande pagina waarin meerdere keren een H1 voorkwam (en wat niet mag) heb ik het op deze pagina aangepast. Er is op de pagina nu 1 H1 te vinden, meerder h2 en helemaal onderin een aantal h3. Ik denk dat de structuur is verbeterd op deze manier voor een screenreader en de opzet duidelijker is.
+
+Ik had misschien nog wat meer kunnn kijken naar een h4 of zelfs een h4. Al moet ik zeggen dat er gewoon weinig koppen op de pagina te vinden zijn.
+
+
+#### Titel tweede bevinding.
+De linkjes zijn allemaal heel duidelijk, het enige is dat ik de svg ook namen heb gegeven, die behoren tot een link, waardoor daar ook telkens de naam van wordt opgenoemd, zoals 'box'. Dit had niet per se gehoeven en voor het mooie weggelaten kunnen worden
+
+
+#### Titel volgende bevinding.
+Alle formulierelementen zijn netjes te vinden in de header, ergens anders op de pagina zijn deze niet te vinden. Door de duidelijke placeholder is het voor de gebruiker die een screanreader gebruikt duidelijk dat hij zich op een formulier bevind waar hij dingen kan intypen om te zoeken.
+Ook de knoppen voor het winkelmandje, verlanglijst en de zoekknop zijn naar mijn idee duidelijk en helder
+
+
+#### Titel nog een bevinding.
+Ook op de tweede pagina zijn de koppen en links goed uitgevoerd. De kopen staan in chronologische volgorde en begint met 1 H1, daarna een aantal h2 voor de verschillende li binnen het artikel en onderin nog veel h3 met daaronder allemaal linkjes.
+
+#### Titel nog een bevinding.
+Ik heb naar aanleiding van de al bestaande pagina veel alt teksten aangepast, deze waren wat sumier of bestonden amper en waren weinig beschrijvend over de foto zelf. Dit heb ik opgelost door echt in een langere zin te beschrijven wat er op de foto te zien valt.
+
+</details>
 
 
 
@@ -195,9 +249,14 @@ hier screenshot(s) van je eindresultaat
 <img src="images/eindresultaat6.PNG" width="375px" alt="eindresultaat hoofdpagina">
 </details>
 
+## WCAG checklist
 
-
-
+<img src="images/wcag1.PNG" width="375px" alt="wcag eerste deel">
+<img src="images/wcag2.PNG" width="375px" alt="wcag tweede deel">
+<img src="images/wcag3.PNG" width="375px" alt="wcag derde deel">
+<img src="images/wcag4.PNG" width="375px" alt="wcag vierde deel">
+<img src="images/wcag5.PNG" width="375px" alt="wcag vijfde deel">
+<img src="images/wcag6.PNG" width="375px" alt="wcag zesde deel">
 
 ## Bronnenlijst
 
